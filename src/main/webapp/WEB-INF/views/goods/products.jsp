@@ -6,6 +6,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="${contextPath}/resources/css/product_photo.css" rel="stylesheet" type="text/css">
+	
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
