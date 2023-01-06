@@ -18,8 +18,12 @@
 	</div>
 	<div class="Product_containerA">
 		
-		<img alt="바나나 샐러드" src="${contextPath}/resources/image/banana_salad.jpg" alt="#">
-		
+		<img id= "banana_image" alt="바나나 샐러드" src="${contextPath}/resources/image/banana_salad.jpg" alt="#">
+		<div id= "banana_text">
+			재료 : 바나나
+				  토마토
+				  바질
+		</div>
 		<img alt="카이사르 샐러드" src="${contextPath}/resources/image/caesar_salad.jpg" alt="#">
 		
 		<img alt="카프리즈 샐러드" src="${contextPath }/resources/image/capreze_salad.jpg">
@@ -29,13 +33,6 @@
 		<img alt="두부 샐러드" src="${contextPath }/resources/image/dubu_saessac_salad.jpg">
 	</div>
 	
-	<div class="Product_containerB">
-		<img alt="제품" src="#">
-		<img alt="제품" src="#">
-		<img alt="제품" src="#">
-		<img alt="제품" src="#">
-		<img alt="제품" src="#">
-		<img alt="제품" src="#">
-	</div>
+	
 </body>
 </html>
