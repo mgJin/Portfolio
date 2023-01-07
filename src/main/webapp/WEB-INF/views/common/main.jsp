@@ -61,8 +61,8 @@
                 <li>
                 	<a href="${contextPath}/goods/viewGoods.do">
                 		
-	                	<img alt="상품1" src="${contextPath }/resources/image/banana_salad.jpg"/>
-	                	바나나 샐러드 100g
+	                	<img alt="상품1" src="${contextPath }/resources/image/banana_salad.jpg"/><br>
+	                	바나나 샐러드 100g<br>
 	                	10000원
 	                	                	
                 	</a>
