@@ -1,6 +1,7 @@
 @charset "EUC-KR";
 .Product_containerA{
 	padding:20px 15px;
+	
 }
 .Product_containerA img{
 	padding:10px;
@@ -8,21 +9,27 @@
 	height:70px;
 	
 }
+.Product{
+	display:inline-block;
+}
 
 
-
-#banana_text{
+.salad_text{
 	padding:15px 20px;
 	background-color: #D8D8D8;
 	border-radius: 10px;
 	color: #ffffff;
 	position: absolute;
-	opacity:0;
-	transition: all 0.1s ease 0.1s;
+	opacity:0.1;
+	transition: all ease 0.5s;
 }
-#banana_image:hover{
+
+.salad_image:hover{
 	opacity:0.5;
 }
-#banana_image:hover + #banana_text{
+
+.salad_image:hover .salad_text{
 	opacity:1;
+	color: #ff0000;
 }
+
