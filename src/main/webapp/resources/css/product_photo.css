@@ -16,20 +16,13 @@
 
 .salad_text{
 	padding:15px 20px;
-	background-color: #D8D8D8;
+	background-color: #ff0000;
 	border-radius: 10px;
 	color: #ffffff;
 	position: absolute;
-	opacity:0.1;
-	transition: all ease 0.5s;
+	opacity:0;
+	
+	
 }
 
-.salad_image:hover{
-	opacity:0.5;
-}
-
-.salad_image:hover .salad_text{
-	opacity:1;
-	color: #ff0000;
-}
 
